@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taide</title>
+
+    <style>
+        body {
+            margin: 0px;
+            background-color: #1e1e1e;
+        }
+
+        body img {
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 992px) {
+            #web-ver {
+                display: block !important;
+            }
+
+            #mob-ver {
+                display: none !important;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+            #web-ver {
+                display: none !important;
+            }
+
+            #mob-ver {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="web-ver.jpg" alt="" id="web-ver">
+    <img src="mob-ver.jpg" alt="" id="mob-ver">
+</body>
+
+</html>
